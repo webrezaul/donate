@@ -132,24 +132,28 @@ margin-bottom: 1cm;
 .plan {
 
     display: flex;
-    padding: 15px 25px;
     width: 90%;
     margin-left: 3cm;
-    margin-right: 20px;
-    margin-bottom: 2cm;
+    margin-right: 10px;
+    margin-bottom: 50px;
     border-radius: 10px;
 }
 
 .plan1{
+    background-image: url("../icons/food.png");
    background-color: #4F9DA61A;
+   padding-top: 1cm;
    padding: 150px 50px;
    margin-right: 1cm;
    border-radius: 10px;
+   background-repeat: no-repeat;
    
 }
 
 .plan2{
-    background-color: #4F9DA61A;
+    background-image: url(../icons/shelter.png);
+    background-repeat: no-repeat;
+    background-color: #FF59591A;
     padding: 150px 50px;
     margin-right: 1cm;
     border-radius: 10px;
@@ -157,14 +161,59 @@ margin-bottom: 1cm;
  }
 
  .plan3{
-    background-color: #4F9DA61A;
+    background-image: url(../icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-color: #FFF4D6;
     padding: 150px 50px;
     margin-right: 1cm;
     border-radius: 10px;
     
  }
 
- 
+.contribute{
+   display: flex;
+   padding: 50px 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: left;
+}
+
+.contribute img{
+   width: 500px;
+   height: auto;
+   border-radius: 10px;
+   
+}
+
+.contribute_txt{
+   padding: 30px 20px;
+}
+
+.contribute_txt h1{
+   font-size: 45px;
+   padding: 10px 10px;
+}
+
+.contribute_txt p{
+   padding: 20px 20px;
+   text-align: justify;
+}
+
+.contribute2 img{
+    border-radius: 10px;
+}
 
 
 
+
+
+ footer{
+    background-color: black;
+    margin-top: 1cm;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ footer h4{
+    color: white;
+    text-align: center;
