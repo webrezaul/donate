@@ -5,6 +5,7 @@
     margin: 0% ;
     padding: 0%;
     box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
     }
 
 .header {
@@ -23,7 +24,7 @@
 
 .headertxt h1{
 
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     font-weight: 1000px;
     padding-top: 6cm;
@@ -41,12 +42,12 @@
 
 .link-button{
 
-    background-color: #f9004d;
+    background-color: #FF5959;
     display: inline-block;
     border: 2px solid transparent;
     font-weight: bold;
     text-align: center;
-    padding: 20px 25px;
+    padding: 15px 25px;
     font-size: 26px;
     border-radius: 18px;
     margin-left: 15cm;
@@ -59,13 +60,13 @@
 .link-button a{
 text-decoration: none;
 color: white;
-margin-bottom: 2cm;
+margin-bottom: 1cm;
     }
 
 
 .donate{
 
-    margin-top: 3cm;
+    margin-top: 2cm;
     text-align: center;
 
 }
@@ -81,6 +82,89 @@ margin-bottom: 2cm;
     padding: 10px 10 px;
     margin-bottom: 40px;
 }
+
+.donate-today{
+    margin-bottom: 2cm;
+}
+
+.donate-today ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 8px;
+    font-weight: bold;
+    font-size: 40px;
+    border: 2px solid transparent;
+    background-color: whitesmoke;
+    border-radius:10px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+.donate-today ul li:hover{
+    color: #f9004d;
+    transition: 0.5s;
+    background-color: #FFEEEE;
+   
+}
+
+#amount{
+    padding: 10px 10px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.donate-button{
+  
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.input hr{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.plan {
+
+    display: flex;
+    padding: 15px 25px;
+    width: 90%;
+    margin-left: 3cm;
+    margin-right: 20px;
+    margin-bottom: 2cm;
+    border-radius: 10px;
+}
+
+.plan1{
+   background-color: #4F9DA61A;
+   padding: 150px 50px;
+   margin-right: 1cm;
+   border-radius: 10px;
+   
+}
+
+.plan2{
+    background-color: #4F9DA61A;
+    padding: 150px 50px;
+    margin-right: 1cm;
+    border-radius: 10px;
+    
+ }
+
+ .plan3{
+    background-color: #4F9DA61A;
+    padding: 150px 50px;
+    margin-right: 1cm;
+    border-radius: 10px;
+    
+ }
+
+ 
 
 
 
