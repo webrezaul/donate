@@ -151,7 +151,7 @@ margin-bottom: 1cm;
 }
 
 .plan2{
-    background-image: url(../icons/shelter.png);
+    background-image: url("../icons/shelter.png");
     background-repeat: no-repeat;
     background-color: #FF59591A;
     padding: 150px 50px;
@@ -161,7 +161,7 @@ margin-bottom: 1cm;
  }
 
  .plan3{
-    background-image: url(../icons/Frame-1.png);
+    background-image: url("../icons/Frame-1.png");
     background-repeat: no-repeat;
     background-color: #FFF4D6;
     padding: 150px 50px;
@@ -203,7 +203,34 @@ margin-bottom: 1cm;
     border-radius: 10px;
 }
 
+.email{
 
+    background-color: #FFF4D6;
+    
+    margin-left: 13cm;
+    margin-right: 10cm;
+    padding: 15px 15px;
+    display: flex;
+}
+
+.email input{
+    padding: 8px 60px;
+    background-color: #D9D9D9;
+    border-color:#D9D9D9;
+    border-radius: 2px;
+}
+
+.email button{
+
+    padding: 8px 25px;
+    background-color: #FF5959;
+    border-color:#FF5959;
+    margin-right:3cm;
+    border-radius: 2px;
+    color: white;
+
+
+}
 
 
 
@@ -217,3 +244,4 @@ margin-bottom: 1cm;
  footer h4{
     color: white;
     text-align: center;
+ }
